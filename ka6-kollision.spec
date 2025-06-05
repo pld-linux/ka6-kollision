@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	25.04.1
+%define		kdeappsver	25.04.2
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kollision
 Summary:	kollision
 Name:		ka6-%{kaname}
-Version:	25.04.1
+Version:	25.04.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	40af87015321f25b8e6cb8d481af87c0
+# Source0-md5:	8e9b4ffacd2d4ac94a667ea1d0028a44
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Gui-devel >= 5.11.1
